@@ -1,3 +1,4 @@
+/* Layout */
 * {
   margin: 0;
   padding: 0;
@@ -18,3 +19,84 @@
   width: 80%;
   margin: 0 auto;
 }
+
+body {
+  font-family: sans-serif;
+}
+/* HADER */
+/* NAVBAR FIXED LEFT*/
+.navbar-fixed {
+  background-color: #f4f9fd;
+  font-size: 20px;
+  border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+ul.navbar-fixed-left li , ul.navbar-fixed-right li {
+  display: inline-block;
+  padding: 0 10px;
+  margin: 25px 0;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black ;
+}
+
+ul {
+  list-style: none;
+  display: inline-block;
+}
+
+.border-left {
+  border-left: 1px solid black;
+}
+/* NAVBAR FIXED LEFT*/
+/* NAVBAR FIXED RIGHT*/
+
+.navbar-fixed-right {
+  float: right;
+}
+
+.btn {
+  border-radius: 10px;
+  background-color: white;
+  padding: 6px 15px;
+}
+
+.log-in {
+  color: #fe7d62;
+  border: 1px solid #fe7d62;
+}
+
+.free {
+background-color: #fe7d62;
+color: white;
+}
+/* NAVBAR FIXED RIGHT*/
+/* SECONDARY-NAVBAR */
+
+.navbar-2 {
+  margin-top:75px;
+}
+
+/* SECONDARY-NAVBAR */
+
+
+
+/* HADER */
+/* UTILITY */
+
+.pad-lr-10{
+  padding: 0 10PX;
+}
+
+.mr-15 {
+  margin-right: 25px;
+}
+
+/* UTILITY */
