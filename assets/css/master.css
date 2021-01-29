@@ -29,6 +29,7 @@ body {
   background-color: #f4f9fd;
   font-size: 20px;
   border-bottom: 1px solid black;
+  height: 80px;
   position: fixed;
   top: 0;
   left: 0;
@@ -36,7 +37,7 @@ body {
   z-index: 100;
 }
 
-ul.navbar-fixed-left li , ul.navbar-fixed-right li {
+nav ul li , nav ul li {
   display: inline-block;
   padding: 0 10px;
   margin: 25px 0;
@@ -84,6 +85,19 @@ color: white;
   margin-top:75px;
 }
 
+.secondary-nav {
+  height: 80px;
+  line-height: 80px;
+}
+
+nav.secondary-nav ul {
+  float: right;
+}
+
+nav.secondary-nav ul li {
+  margin: 0 auto;
+}
+
 /* SECONDARY-NAVBAR */
 
 
@@ -93,6 +107,10 @@ color: white;
 
 .pad-lr-10{
   padding: 0 10PX;
+}
+
+.pad-t-23 {
+  padding-top: 23px;
 }
 
 .mr-15 {
