@@ -64,7 +64,7 @@ ul {
 }
 
 .btn {
-  border-radius: 7px;
+  border-radius: 3px;
   background-color: white;
   padding: 6px 15px;
 }
@@ -109,14 +109,13 @@ nav.secondary-nav ul li {
 }
 
 .jumbo-container {
-  width: 80%;
   margin: 0 auto;
   height: 700px;
 }
 
 .jumbo-h1 {
   font-size: 50px;
-  margin-top: 25px;
+  margin-top: 10px;
   width: 45%;
 }
 
@@ -124,10 +123,6 @@ nav.secondary-nav ul li {
   width: 55%;
   margin: 25px 0;
   line-height: 3;
-}
-
-.jumbo-btn {
-  padding: 20px 15px;
 }
 
 .jumbo-road {
@@ -144,12 +139,79 @@ nav.secondary-nav ul li {
 /* HADER */
 /* MAIN */
 /* MAIN-TOP */
+.main-top {
+  line-height: 2;
+  background-color: #f4f9fd
+}
 
+.container-50 {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
 
+.logo-main {
+  height: 200px;
+  padding: 25px 0;
+}
+
+div.title h2 {
+  font-size: 30px;
+}
+
+.height-main-img {
+  height: 100px ;
+  margin: 25px 35%;
+  display: block;
+}
+
+.in-line-list {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.main-h3 {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.divisorio {
+  height: 2px;
+  width: 70%;
+  background-color: gray;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+#main-h4-top {
+  display: inline-block;
+}
+
+.main-h4 {
+  margin: 10px 0;
+}
 
 /* MAIN-TOP */
 /* MAIN */
 /* UTILITY */
+
+.col-30 {
+  width: 30%;
+  text-align: center;
+}
+
+.col-70 {
+  width: 70%;
+}
+
+.col-100{
+  width: 100%;
+}
+
+.pad-5 {
+  padding: 5%;
+}
 
 .pad-lr-10{
   padding: 0 10PX;
@@ -159,8 +221,35 @@ nav.secondary-nav ul li {
   padding-top: 23px;
 }
 
+.mrg-1 {
+  margin: 25px 35%;
+}
+
+.mr-3 {
+  margin-right: 3%;
+}
+
 .mr-15 {
   margin-right: 25px;
 }
 
+.mb-1 {
+  margin-bottom: 20px;
+}
+
+.btn-big {
+  padding: 20px 15px;
+}
+
+.bg-white{
+  background-color: white ;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.color-orange {
+  color: #fe7d62;
+  margin-right: 10px;
+}
 /* UTILITY */
