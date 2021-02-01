@@ -156,7 +156,7 @@ nav.secondary-nav ul li {
   padding: 25px 0;
 }
 
-div.title h2 {
+ h2 {
   font-size: 30px;
 }
 
@@ -193,8 +193,57 @@ div.title h2 {
 }
 
 /* MAIN-TOP */
+/* MAIN-MIDDLE */
+
+.main-middle {
+  background: linear-gradient(45deg, #00a4bd, #00bda5);
+  color: white;
+  margin-top: 50px;
+  padding: 50px 0;
+}
+
+.middle-header {
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.stats {
+  text-align: center;
+}
+
+.bord-bot {
+  border-bottom: 1px solid white;
+}
+
+.bord-right {
+  border-right: 1px solid white;
+}
+
+div.col-25 h3 span {
+  font-size: 40px;
+  vertical-align: middle;
+}
+
+.piu {
+  vertical-align: middle;
+  font-weight: normal;
+  font-size: 20px;
+  display: inline-block;
+}
+
+
+
+/* MAIN-MIDDLE */
+
 /* MAIN */
 /* UTILITY */
+
+.col-25 {
+  width: 25%;
+  padding: 20px 0;
+}
 
 .col-30 {
   width: 30%;
@@ -221,12 +270,16 @@ div.title h2 {
   padding-top: 23px;
 }
 
+.pad-b-1 {
+  padding-bottom: 30px;
+}
+
 .mrg-1 {
   margin: 25px 35%;
 }
 
-.mr-3 {
-  margin-right: 3%;
+.mr-5 {
+  margin-right: 5%;
 }
 
 .mr-15 {
