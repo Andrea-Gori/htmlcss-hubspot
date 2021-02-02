@@ -48,6 +48,10 @@ ul li a {
   color: black ;
 }
 
+a {
+  text-decoration: none;
+}
+
 ul {
   list-style: none;
   display: inline-block;
@@ -232,32 +236,57 @@ div.col-25 h3 span {
   font-size: 20px;
   display: inline-block;
 }
+/* MAIN-MIDDLE */
+
+/* SEZIONE PARTNERS */
+
+.partners p {
+  line-height: 2;
+}
 
 .sponsors {
-  position: relative;
+  margin-top: 50px;
+  text-align: center;
 }
-
 
 .tab-sponsors {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  width: 60%;
+  font-size: 0;
 }
 
-ul.tab-sponsors li{
+ul.tab-sponsors li {
   display: inline-block;
+  width: 25%;
+  padding: 0 20px;
 }
 
 ul.tab-sponsors li img {
-  max-height: 40px;
-  vertical-align: middle;
+    width: 100%;
+    vertical-align: middle;
 }
 
-/* MAIN-MIDDLE */
+.woman-img {
+  max-width: 40%;
+}
 
+div.sponsors h2 , div.col-40 h2 {
+  font-size: 45px;
+  margin-bottom: 50px;
+}
+
+.txt-r {
+  text-align: right;
+}
+
+/* SEZIONE PARTNERS */
 /* MAIN */
+/* FOOTER */
+
+
+
+
+
+
+/* FOOTER */
 /* UTILITY */
 
 .col-25 {
@@ -268,6 +297,19 @@ ul.tab-sponsors li img {
 .col-30 {
   width: 30%;
   text-align: center;
+}
+
+.col-40 {
+  width: 40%;
+}
+
+.col-50 {
+  width: 50%;
+  line-height: 2;
+}
+
+.col-60 {
+  width: 60%;
 }
 
 .col-70 {
@@ -308,6 +350,14 @@ ul.tab-sponsors li img {
 
 .mb-1 {
   margin-bottom: 20px;
+}
+
+.mb-2 {
+  margin-bottom: 50px;
+}
+
+.mt-1 {
+  margin-top: 55px;
 }
 
 .btn-big {
