@@ -115,7 +115,7 @@ nav.secondary-nav ul li {
 
 .jumbo-h1 {
   font-size: 50px;
-  margin-top: 10px;
+  padding-top: 50px;
   width: 45%;
 }
 
@@ -233,7 +233,27 @@ div.col-25 h3 span {
   display: inline-block;
 }
 
+.sponsors {
+  position: relative;
+}
 
+
+.tab-sponsors {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 60%;
+}
+
+ul.tab-sponsors li{
+  display: inline-block;
+}
+
+ul.tab-sponsors li img {
+  max-height: 40px;
+  vertical-align: middle;
+}
 
 /* MAIN-MIDDLE */
 
