@@ -22,6 +22,7 @@
 
 body {
   font-family: sans-serif;
+  color: #33475b;
 }
 /* HADER */
 /* NAVBAR FIXED LEFT*/
@@ -281,10 +282,55 @@ div.sponsors h2 , div.col-40 h2 {
 /* MAIN */
 /* FOOTER */
 
+footer {
+  background-color: #32495b;
+  color: white;
+}
+
+footer h3 {
+  margin-bottom: 30px;
+}
+
+footer ul li {
+  margin-bottom: 20px;
+}
+
+footer ul li a {
+  color: #cbd6e2;
+}
+
+footer ul li a.btn {
+  color: black ;
+}
 
 
 
+ul.social-icons li {
+  display: inline-block;
+  padding-right: 30px;
+}
 
+.footer-mid {
+  text-align: center;
+}
+
+ul.lenguages-footer li {
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.footer-bottom {
+  text-align: left;
+}
+
+.float-right {
+  float: right;
+}
+
+ul.float-right li {
+  display: inline-block;
+  padding-right: 20px;
+}
 
 /* FOOTER */
 /* UTILITY */
@@ -305,7 +351,6 @@ div.sponsors h2 , div.col-40 h2 {
 
 .col-50 {
   width: 50%;
-  line-height: 2;
 }
 
 .col-60 {
